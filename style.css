@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    background-color: #fff8f0;
+}
+
+.container {
+    padding: 50px;
+}
+
+.sec-one {
+    background-color: #f39c12;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.sec-one__desc {
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: #FFE5B4;
+    color: #d35400;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.sec-two__image,
+.sec-three__image,
+.sec-four__image,
+.sec-five__image {
+    border: solid #d35400 3px;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.sec-two,
+.sec-three,
+.sec-four,
+.sec-five {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    color: #555555;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0, 1);
+}
+
+.menu-row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.sec-two__button,
+.sec-three__button,
+.sec-four__button,
+.sec-five__button {
+    background-color: #e67e22;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.sec-six {
+    background-color: #f39c12;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.sec-six__desc table {
+    display: inline-block;
+    text-align: center;
+    background-color: #fff3e0;
+    color: #555555;
+}
+
+.sec-six__name,
+.sec-six__age,
+.sec-six__email {
+    border: 2px solid #d35400;
+}
+
+.sec-six__button {
+    background-color: #e67e22;
+    color: #ffffff;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
